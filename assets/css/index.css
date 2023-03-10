@@ -11073,4 +11073,10 @@ footer span {
 .btnOptProfile:hover {
   background-color: #FFFFFF;
   color: #141414;
+}
+
+.membership {
+  background-color: rgb(237, 236, 236);
+  border: none;
+  box-shadow: 0px 1px 2px 0px;
 }/*# sourceMappingURL=index.css.map */
