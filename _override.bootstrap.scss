@@ -32,35 +32,30 @@ $navbar-light-color: $light;
 @import "bootstrap/dropdown";
 @import "bootstrap/list-group";
 @import "bootstrap/transitions";
-@import "bootstrap/card";
+@import "bootstrap/badge";
+@import "bootstrap/button-group";
+@import "bootstrap/accordion";
+@import "bootstrap/alert";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/close";
+@import "bootstrap/forms";
+@import "bootstrap/images";
+@import "bootstrap/modal";
+@import "bootstrap/offcanvas";
+@import "bootstrap/pagination";
+@import "bootstrap/placeholders";
+@import "bootstrap/popover";
+@import "bootstrap/progress";
+@import "bootstrap/reboot";
+@import "bootstrap/spinners";
+@import "bootstrap/tables";
+@import "bootstrap/toasts";
+@import "bootstrap/type";
+
+
 
 
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "bootstrap/utilities/api";
 
 // 8. Add additional custom code here
-.utility{
-    margin-inline: -3px;
-}
-
-footer {
-    svg{
-    margin-right: 1rem;
-}
-    ul{
-        padding-left: 0;
-        padding-block: 0.7rem;
-        list-style: none;
-        li{
-            padding-block: 0.5rem;
-            a{
-                text-decoration: none;
-                color: $secondary;
-            }
-        }
-    }
-    span{
-        
-        font-size: 0.6rem;
-    }
-}
