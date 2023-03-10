@@ -6,8 +6,8 @@
 
 // 2. Include any default variable overrides here
 $dark : #141414;
-$light : #FFFFFf;
-
+$light : #FFFFFF;
+$navbar-light-color: $light;
 // 3. Include remainder of required Bootstrap stylesheets
 @import "bootstrap/variables";
 // 4. Include any default map overrides here
@@ -39,7 +39,28 @@ $light : #FFFFFf;
 @import "bootstrap/utilities/api";
 
 // 8. Add additional custom code here
+.utility{
+    margin-inline: -3px;
+}
 
-.svgLogo{
-    
-};
+footer {
+    svg{
+    margin-right: 1rem;
+}
+    ul{
+        padding-left: 0;
+        padding-block: 0.7rem;
+        list-style: none;
+        li{
+            padding-block: 0.5rem;
+            a{
+                text-decoration: none;
+                color: $secondary;
+            }
+        }
+    }
+    span{
+        
+        font-size: 0.6rem;
+    }
+}
